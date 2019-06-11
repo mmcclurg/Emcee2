@@ -1,0 +1,15 @@
+{
+  "name": "Emcee2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mmcclurg/Emcee2.git",
+  "author": "mmcclurg <malcolmjmcclurg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+	"bl": "netlify-lambda build src",
+	"sl": "netlify-lambda serve src"
+  },
+  "dependencies": {
+    "netlify-lambda": "^1.4.13"
+  }
+}
